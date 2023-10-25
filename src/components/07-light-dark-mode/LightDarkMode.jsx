@@ -8,7 +8,7 @@ import { ThemeContext,themes } from './context/ThemeContext'
 const LightDarkMode = () => {
     const [theme, setTheme] = useState(themes.light)
 const changeTheme = () => { 
-   theme===themes.light?  setTheme(themes.dark) : setTheme(themes.light)
+   theme===themes.light  ?  setTheme(themes.dark) : setTheme(themes.light)
 
 }
 useEffect(() => {
@@ -25,6 +25,8 @@ useEffect(() => {
         document.body.classList.remove('text-dark')
         document.body.classList.add('bg-dark')
         document.body.classList.add('text-light')
+        break;
+        default:
         break;
   }
 

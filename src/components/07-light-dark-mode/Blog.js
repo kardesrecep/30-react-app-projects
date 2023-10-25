@@ -10,7 +10,7 @@ const Blog = () => {
       <Title text={`My Blog with ${theme} Theme`} />
       <span style={{position:'absolute',top:10,right:10}}>
         <Button text={theme==="dark" ? "Light": "Dark"} 
-       btnClass={`${theme==="dark" ? "btn-light" : ""} btn-sm`}
+       btnClass={`${theme==="dark" ? "btn-light" : "btn-dark"} btn-lg`}
         onClick={changeTheme}  />
       </span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem dolores quia recusandae exercitationem maxime hic odit omnis, asperiores, aperiam autem animi eius, facilis neque quisquam a maiores illum similique.</p>

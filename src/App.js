@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import LightDarkMode from "./components/07-light-dark-mode/LightDarkMode";
+import SlideToUnclock from "./components/08-slide-to-unlock/SlideToUnclock";
+
 
 
 
@@ -20,7 +21,7 @@ import Alert from "./components/05-alert/Alert";
 
 import TemperatureController from "./components/06-temperature-controller/TemperatureController";
 
-
+import LightDarkMode from "./components/07-light-dark-mode/LightDarkMode";
 
 */
 
@@ -34,10 +35,11 @@ const App = () => {
      <Testimonials/>
       <Alert/>
        <TemperatureController/>
-     
+       <LightDarkMode/>
      
      */}
-     <LightDarkMode/>
+     <SlideToUnclock/>
+   
    
      
 
