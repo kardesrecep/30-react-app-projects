@@ -8,6 +8,7 @@ const LockSlider = ({ handleInput,sliderValue,width }) => {
     height: "50px",
     background: "rgba(188,190, 188, 0.5)",
     outline: "none",
+    borderRadius:"25px"
   };
   return (
 
